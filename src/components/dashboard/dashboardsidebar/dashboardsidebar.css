@@ -1,0 +1,142 @@
+.obd-dashboard-left-sidebar-main-wv-box {
+    background-color: #464951 !important;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse {
+    background-color: unset;
+    border: none;
+    border-radius: unset;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .undefined-item {
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-item {
+    border: none !important;
+    margin-bottom: 10px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content {
+    padding-left: 26px;
+}
+.rc-collapse > .rc-collapse-item > .rc-collapse-header {
+    outline: none;
+}
+
+
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-logo img {
+    width: 76px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: -34px;
+}
+.rc-collapse-item.rc-collapse-item-active {
+    background-color: #FF6347;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-header {
+    color: #fff !important;
+}
+.rc-collapse-header {
+    color: #fff !important;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .undefined-header p span {
+    color: #fff;
+    font-size: 13px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content a {
+    text-decoration: none;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-header p {
+    margin: 0px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-header p img {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-header p span {
+    font-size: 13px;
+    color: #fff !important;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .undefined-header p {
+    margin: 0px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .undefined-header p img {
+    width: 19px;
+    height: 19px;
+    margin-right: 7px;
+}
+.rc-collapse-content {
+    background-color: unset !important;
+}
+span.obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn {
+    position: absolute;
+    right: 15px;
+}
+span.obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn.text-right i.fas {
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-inner ul {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 16px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-inner ul li a {
+    color: #f1f1f1;
+    font-size: 13px;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-inner ul li a:hover {
+    color: #cecece;
+    transition: .2s;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-inner ul li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content .rc-collapse-content {
+    padding: 0px !important;
+}
+.obd-dashboard-left-sidebar-main-wv-item-menu-content-inner ul li a img {
+    margin-left: 5px;
+    margin-right: 1px;
+}
+
+/* Extra */
+a.active .undefined-item {
+    background-color: #ff6347;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 13px;
+}
+/* Extra */
+
+/* Scrollbar start */
+.obd-dashboard-left-sidebar-main-wv-box {
+    position: fixed;
+    width: 230px;
+    z-index: 99;
+    overflow: scroll;
+}
+.obd-dashboard-left-sidebar-main-wv-box::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+    
+}
+.obd-dashboard-left-sidebar-main-wv-box::-webkit-scrollbar-button {
+    background: #ccc
+}
+.obd-dashboard-left-sidebar-main-wv-box::-webkit-scrollbar-track-piece {
+    background: #888
+}
+.obd-dashboard-left-sidebar-main-wv-box::-webkit-scrollbar-thumb {
+    background: #eee
+}
+/* Scrollbar End */

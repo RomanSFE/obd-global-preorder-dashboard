@@ -1,0 +1,105 @@
+.row.obd-top-bar-main-order-dash-board-top-search-boxx-bgg {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 12px 0px 12px 0px;
+    margin-left: -22px;
+}
+
+/* Left Search box section start */
+.obd-top-bar-main-order-dash-board-top-search-boxx-main-lft-serch ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-top-bar-main-order-dash-board-top-search-boxx-main-lft-serch ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-hambergr button {
+    border: none;
+    outline: none;
+    background: none;
+}
+li.obd-top-bar-main-order-dash-board-top-search-hambergr button img {
+    width: 32px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-src-inpt {
+    margin-left: 20px;
+    width: 65%;
+}
+li.obd-top-bar-main-order-dash-board-top-search-src-inpt input {
+    width: 86%;
+    border: none;
+    background-color: #EFF1F7;
+    border-radius: 20px;
+    height: 34px;
+    outline: none;
+    font-size: 13px;
+    color: #333;
+    padding: 12px;
+    padding-right: 30px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-src-inpt span i.fas {
+    color: #cacaca;
+    font-size: 15px;
+    margin-left: -30px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-src-inpt input::placeholder {
+    color: #cacaca;
+    font-size: 14px;
+}
+/* Left Search box section end---- */
+
+/* Right profile and Notification section start */
+.obd-top-bar-main-order-dash-board-top-search-boxx-main-right-pro-notf ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-top-bar-main-order-dash-board-top-search-boxx-main-right-pro-notf ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+li.obd-top-bar-main-order-dash-board-top-search-user-profile-img .obd-top-bar-main-order-dash-board-top-search-user-profile-img-box img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid #FF6347;
+}
+li.obd-top-bar-main-order-dash-board-top-search-user-profile-img .obd-top-bar-main-order-dash-board-top-search-user-profile-img-box {
+    background-color: #EFF1F7;
+    border-radius: 30px;
+    padding: 0px 0px 0px 12px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-user-profile-img a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5D616D;
+}
+.obd-top-bar-main-order-dash-board-top-search-user-profile-img-box {
+    margin-right: 25px;
+}
+li.obd-top-bar-main-order-dash-board-top-search-user-profile-img {
+    position: relative;
+}
+span.obd-top-bar-main-order-dash-board-top-search-user-ang-dwn {
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    font-size: 15px;
+}
+
+/* Message section start*/
+li.obd-top-bar-main-order-dash-board-top-search-user-message-icn img {
+    width: 20px;
+}
+/* Message section End*/
+
+/* Notification Start */
+li.obd-top-bar-main-order-dash-board-top-search-user-notific-icn i.far {
+    color: #a8aaae;
+    font-size: 17px;
+}
+/* Notification End------- */
+/* Right profile and Notification section end */

@@ -1,0 +1,244 @@
+/* Invoice Barcode and logo section start */
+.obd-all-order-details-dashboard-main-section-left-box-main {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-bottom: 50px;
+}
+.row.obd-all-order-details-dashboard-main-section-roww {
+    margin-top: 18px;
+}
+.obd-all-order-details-dashboard-main-section-left-logo-and-inv-bx-contnt img {
+    width: 172px;
+    margin-top: 3px;
+}
+.obd-all-order-details-dashboard-mainsc-left-logo-and-datex-bx-contnt h4 {
+    font-size: 15px;
+    color: #ed5448;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+.obd-all-order-details-dashboard-main-section-left-logo-and-inv-bx {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+}
+/* Invoice Barcode and logo section end */
+
+/* From and Ship To Section Start */
+.obd-all-order-details-dashboard-main-section-left-bill-from-shipto-bx {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 50px;
+}
+/* From ST */
+.obd-all-order-details-dashboard-main-section-left-from-bbx {
+    border-right: 1px solid #ddd;
+    height: 120%;
+    margin-right: -7px;
+}
+.obd-all-order-details-dashboard-main-section-left-from-bbx h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.obd-all-order-details-dash-section-left-sngl-frm {
+    position: relative;
+    margin-bottom: 12px;
+}
+.obd-all-order-details-dash-section-left-sngl-frm h5 {
+    font-size: 13px;
+    color: #6f6f6f;
+}
+span.obd-all-order-details-dash-section-rt-ab {
+    position: absolute;
+    left: 98px;
+    top: -1px;
+    font-size: 13px;
+    color: #7d7d7d;
+}
+span.obd-all-order-details-dash-section-rt-ab strong {
+    font-weight: 500;
+    color: #717171;
+}
+/* From ED */
+/* TO ST */
+.obd-all-order-details-dashboard-main-section-rt-too-bbx h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.obd-all-order-details-dash-section-rt-sngl-toz {
+    position: relative;
+    margin-bottom: 12px;
+}
+.obd-all-order-details-dash-section-rt-sngl-toz h5 {
+    font-size: 13px;
+    color: #6f6f6f;
+}
+span.obd-all-order-details-dash-section-to-rt-ab {
+    position: absolute;
+    left: 98px;
+    top: -1px;
+    font-size: 13px;
+    color: #7d7d7d;
+}
+/* TO ED */
+/* From and Ship To Section End -----*/
+
+/* Table Image Item Start */
+.obd-all-order-details-dashboard-main-section-left-table-main-box {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table tbody tr td {
+    border: none;
+    border-bottom: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    color: #5D616D;
+    font-weight: 400;
+    text-align: center;
+}
+/* New Table code */
+.obd-all-order-details-dashboard-main-section-left-table-main-box table tbody {
+    border: none !important;
+}
+.obd-all-order-details-dashboard-main-section-left-table-main-box table tbody tr {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* New Table code */
+.obd-all-order-details-dashboard-mn-section-left-table-img-it img {
+    width: 97%;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    margin-left: 8px;
+    padding: 2px;
+}
+.obd-all-order-details-dashboard-mn-section-left-table-it-txt a {
+    font-size: 12px;
+    color: #7D7F85;
+    font-weight: 400;
+    margin-top: 2px;
+    text-decoration: none;
+    display: block;
+}
+.obd-all-order-details-dashboard-mn-section-left-table-it-txt a:hover {
+    color: #2244aa;
+    transition: .3s;
+}
+.row.obd-all-order-details-dashboard-mn-section-left-exx-pdd-nn .col-md-10 {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 16px !important;
+}
+/* Table Image Item End ---------- */
+
+
+/* Right Payment send edit invoice print button box start------ */
+.obd-all-order-details-dashboard-main-section-right-box-mn {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+.row.obd-all-order-details-dashboard-main-section-roww .col-md-3 {
+    padding-left: 6px;
+}
+
+.obd-all-order-details-dashboard-main-section-right-box-printt-btn button {
+    background-color: #FF6347;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    height: 35px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 14px;
+}
+.obd-all-order-details-dashboard-main-section-right-box-printt-btn button:hover {
+    background-color: #ec3414;
+    transition: .2s;
+}
+
+.obd-all-order-details-dashboard-main-section-right-box-printt-btn button span {
+    margin-right: 5px;
+    font-size: 14px;
+}
+/* Right Payment send edit invoice print button box end------ */
+
+/* Total Count Ptice Section start */
+.obd-all-order-details-dashboard-main-section-left-table-ttl-countmn-hd h4 {
+    font-size: 13px;
+    color: #67636d;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-main-box {
+    margin-top: 28px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-main-box {
+    background-color: #EEF0F6;
+    border-radius: 12px;
+    padding: 22px 24px 22px 24px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-mn-cnt {
+    position: relative;
+    margin-bottom: 12px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-mn-cnt h4 {
+    color: #7D7F85;
+    font-size: 13px;
+}
+span.obd-all-order-details-dashboard-main-section-left-price-abb-txt h3 {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #464951;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-mn-cnt.delvry-crg-brdr {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 6px;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-mn-cnt.balance-color-txt h4 {
+    color: #FF6347 !important;
+}
+.obd-all-order-details-dashboard-main-section-left-table-total-count-price-mn-cnt.balance-color-txt h3 {
+    color: #FF6347 !important;
+}
+/* Total Count Ptice Section end */

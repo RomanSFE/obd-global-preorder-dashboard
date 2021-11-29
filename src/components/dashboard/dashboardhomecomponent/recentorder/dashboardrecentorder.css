@@ -1,0 +1,204 @@
+.obd-recent-order-bx-product-and-new-user-dash-board-main-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+/* Recent head color start */
+.orponbd-recent-order-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.orponbd-recent-order-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.orponbd-recent-order-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.orponbd-recent-order-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-recent-orderxv {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+/* REcent head color End */
+
+/* Recent Order See all And Export Button start */
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li a {
+    background-color: #FF6347;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li a:hover {
+    background-color: #ff4d2d;
+    transition: .2s;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li button {
+    background-color: #FFEEEB;
+    border: 1px solid #ff6347;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 16px 4px 16px;
+    outline: none;
+    color: #ff6347;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li button:hover {
+    transition: .2s;
+    background-color: #ff6347;
+    color: #fff;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab ul li button span {
+    margin-left: 3px;
+}
+.orponbd-recent-order-bx-color-section-box {
+    position: relative;
+}
+.orponbd-recent-order-bx-color-section-box-right-seeall-export-ab {
+    position: absolute;
+    right: 0px;
+    top: -2px;
+}
+/* Recent Order See all And Export Button end ----------*/
+
+/* Table Box start */
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box {
+    margin-top: 25px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    color: #5D616D;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+/* New Table code */
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody {
+    border: none !important;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* New Table code */
+/* Pending start */
+.obd-recent-order-bx-product-and-payment-stts-pendng button {
+    border: none;
+    background-color: #FF8950;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-pendng button:hover {
+    background-color: #fd6f2c;
+    transition: .2s;
+}
+/* Pending end */
+/* In Transit start */
+.obd-recent-order-bx-product-and-payment-stts-in-transt button {
+    border: none;
+    background-color: #50A2FF;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-in-transt button:hover {
+    background-color: #2c8dfc;
+    transition: .2s;
+}
+/* In Transit end */
+/* Delivered start */
+.obd-recent-order-bx-product-and-payment-stts-deliverd button {
+    border: none;
+    background-color: #52E378;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-deliverd button:hover {
+    background-color: #19f353;
+    transition: .2s;
+}
+/* Delivered end */
+/* Cancelled start */
+.obd-recent-order-bx-product-and-payment-stts-cancelld button {
+    border: none;
+    background-color: #FD5454;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-cancelld button:hover {
+    background-color: #fd4040;
+    transition: .2s;
+}
+/* Cancelled end */
+
+.obd-recent-order-bx-product-and-action-bx a {
+    background-color: #EFF1F7;
+    border-radius: 6px;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #d8d8d8;
+    color: #898a8c;
+    text-decoration: none;
+}
+.obd-recent-order-bx-product-and-action-bx {
+    margin-top: 6px;
+}
+.obd-recent-order-bx-product-and-action-bx a:hover {
+    background-color: #e7ebf7;
+    transition: .2s;
+}
+/* Table Box End */

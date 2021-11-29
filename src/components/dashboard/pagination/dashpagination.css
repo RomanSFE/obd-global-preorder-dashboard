@@ -1,0 +1,64 @@
+/* Pagination Start */
+.row.obd-bd-web-v-dash-brd-mn-pagination-compo-section {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-box {
+    background-color: #fff;
+    padding: 7px;
+    height: 45px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    margin-right: -12px;
+    margin-top: -6px;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 4px 1px 0px;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul li {
+    display: inline-block;
+    margin-right: 4px;
+    background-color: #F4F4F5;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-color: #B4BACB;
+    line-height: 32px;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul li a {
+    color: #5D616D;
+    text-decoration: none;
+    font-size: 13px;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul li:hover {
+    background-color: #FF6347;
+    transition: .2s;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul li:hover a {
+    color: #fff;
+    display: block;
+    transition: .2s;
+}
+.obd-web-v-dash-brd-mn-pagination-compo-section-content ul li a span {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #707070;
+}
+li.obd-dash-brd-mn-pagination-compo-nextt-txt-webv {
+    background-color: #EFF1F7 !important;
+}
+li.obd-dash-brd-mn-pagination-compo-nextt-txt-webv a {
+    color: #fff !important;
+}
+li.obbd-dash-brd-mn-pagination-compo-prevv-txt-webv:hover {
+    background-color: #dcdcdc !important;
+    transition: .2s;
+}
+li.obd-dash-brd-mn-pagination-compo-nextt-txt-webv:hover {
+    background-color: #dcdcdc !important;
+    transition: .2s;
+}
+/* Pagination End */

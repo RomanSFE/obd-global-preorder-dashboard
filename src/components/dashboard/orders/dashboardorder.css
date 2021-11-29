@@ -1,0 +1,369 @@
+/* Orders Tabs Section start */
+.obd-all-order-pages-dashboard-tabs-main-boxx-content {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 18px;
+    padding-bottom: 8px;
+}
+.row.obd-all-order-pages-dashboard-tabs-main-boxx {
+    margin-top: 15px;
+}
+.obd-all-order-pages-tabs-main-manage-order-hed h4 {
+    color: #464951;
+    font-size: 17px;
+    font-weight: 600;
+}
+.obd-all-order-pages-tabs-main-manage-order-hed {
+    margin-bottom: 20px;
+}
+
+.obd-all-order-pages-dashboard-tabs-main-boxx-content nav {
+    border: none;
+}
+.obd-all-order-pages-dashboard-tabs-main-boxx-content .nav-tabs .nav-link.active {
+    border: none;
+    background-color: #FF6347;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 23px 5px 23px !important;
+    border-radius: 8px;
+}
+.obd-all-order-pages-dashboard-tabs-main-boxx-content .nav-tabs .nav-link {
+    background-color: #EFF1F7;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #464951;
+    border: 1px solid #dedede;
+    margin-right: 12px;
+    padding: 5px 23px 4px 23px !important;
+}
+
+/* Tabs-Content Box start */
+.obd-all-order-pages-dashboard-tabs-main-boxx-content .tab-content {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 105px;
+    width: 97.1%;
+    margin-left: -17px;
+    border-radius: 20px;
+}
+.obd-all-order-pages-dashboard-tabs-main-boxx-content .nav-tabs {
+    border-bottom: none !important;
+}
+/* Tabs-Content Box end */
+/* Orders Tabs Section end */
+
+
+/* Order Tabs Table Section Start-------------------------------- */
+.obd-recent-orderxx-product-and-new-user-dash-board-box {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+.obd-recent-order-bx-product-and-order-tabs-dash-board-main-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+/* Recent head color and search start */
+.orponbd-all-tabs-order-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.orponbd-all-tabss-order-bx-txtt-hd {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.orponbd-all-tabss-order-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-all-tabs-orderxv {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 78px;
+    bottom: -2px;
+}
+.orponbd-all-tabss-order-bx-txtt-hd-bboxx ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+.orponbd-all-tabss-order-bx-txtt-hd-bboxx ul li {
+    display: inline-block;
+    margin-right: 17px;
+}
+.orponbd-all-tabss-order-bx-txtt-hd-bboxx ul li h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+
+li.orponbd-all-tabss-order-bx-txtt-hd-bboxx-searchh-bx input {
+    background-color: #EFF1F7;
+    padding: 5px 24px 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #232323;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 240px;
+    position: relative;
+}
+li.orponbd-all-tabss-order-bx-txtt-hd-bboxx-searchh-bx {
+    margin-left: 15px;
+}
+li.orponbd-all-tabss-order-bx-txtt-hd-bboxx-searchh-bx span button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #ababab;
+    font-size: 14px;
+    margin-left: -28px;
+    position: absolute;
+    top: 4px;
+}
+/* REcent head color and searcg End */
+
+/* Recent Order See all And Export Button start */
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li a {
+    background-color: #FF6347;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li a:hover {
+    background-color: #ff4d2d;
+    transition: .2s;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li button {
+    background-color: #FFEEEB;
+    border: 1px solid #ff6347;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 16px 4px 16px;
+    outline: none;
+    color: #ff6347;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li button:hover {
+    transition: .2s;
+    background-color: #ff6347;
+    color: #fff;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab ul li button span {
+    margin-left: 3px;
+}
+.orponbd-recent-order-bx-color-section-box {
+    position: relative;
+}
+.orponbd-allxx-order-bx-color-section-box-right-seeall-export-ab {
+    position: absolute;
+    right: 15px;
+    top: -2px;
+}
+
+li.orponbd-allxx-order-bx-color-section-box-right-select-bx select {
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    outline: none;
+    width: 135px;
+}
+li.orponbd-allxx-order-bx-color-section-box-right-select-bx span {
+    font-size: 13px;
+    margin-right: 4px;
+    color: #848484;
+}
+/* Recent Order See all And Export Button end ----------*/
+
+/* Set Status Start */
+.obd-all-store-ordersx-bxc-set-status-mn {
+    margin-top: 22px;
+}
+.obd-all-store-ordersx-bxc-set-status-mn ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-all-store-ordersx-bxc-set-status-mn ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+.obd-all-store-ordersx-bxc-set-status-mn ul li select {
+    background-color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    outline: none;
+    width: 160px;
+}
+li.obd-store-ordersx-set-status-aply-btn button {
+    background-color: #FF6347;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+li.obd-store-ordersx-set-status-aply-btn button:hover {
+    background-color: #f73c1a;
+    transition: .3s;
+}
+/* Set Status End */
+
+/* Table Box start */
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box {
+    margin-top: 25px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    color: #5D616D;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+/* New Table code */
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table tbody {
+    border: none !important;
+}
+.obd-all-orders-order-bx-product-and-new-user-dash-board-table-box table tbody tr {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* New Table code */
+/* Pending start */
+.obd-recent-order-bx-product-and-payment-stts-pendng button {
+    border: none;
+    background-color: #FF8950;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-pendng button:hover {
+    background-color: #fd6f2c;
+    transition: .2s;
+}
+/* Pending end */
+/* In Transit start */
+.obd-recent-order-bx-product-and-payment-stts-in-transt button {
+    border: none;
+    background-color: #50A2FF;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-in-transt button:hover {
+    background-color: #2c8dfc;
+    transition: .2s;
+}
+/* In Transit end */
+/* Delivered start */
+.obd-recent-order-bx-product-and-payment-stts-deliverd button {
+    border: none;
+    background-color: #52E378;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-deliverd button:hover {
+    background-color: #19f353;
+    transition: .2s;
+}
+/* Delivered end */
+/* Cancelled start */
+.obd-recent-order-bx-product-and-payment-stts-cancelld button {
+    border: none;
+    background-color: #FD5454;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+}
+.obd-recent-order-bx-product-and-payment-stts-cancelld button:hover {
+    background-color: #fd4040;
+    transition: .2s;
+}
+/* Cancelled end */
+
+.obd-alll-orderx-bx-product-and-action-bx a {
+    background-color: #EFF1F7;
+    border-radius: 6px;
+    padding: 4px 6px 4px 6px;
+    border: 1px solid #d8d8d8;
+    color: #898a8c;
+    text-decoration: none;
+}
+.obd-alll-orderx-bx-product-and-action-bx {
+    margin-top: 6px;
+}
+.obd-alll-orderx-bx-product-and-action-bx a:hover {
+    background-color: #e7ebf7;
+    transition: .2s;
+}
+.obd-alll-orderx-bx-product-and-action-bx-main-box ul {
+    margin: 0px;
+    padding: 0px;
+    margin-right: -10px;
+}
+.obd-alll-orderx-bx-product-and-action-bx-main-box ul li {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/* Table Box End */
+/* Order Tabs Table Section End---------------- */

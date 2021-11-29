@@ -1,0 +1,194 @@
+.obd-recent-orderxx-product-and-new-user-dash-board-box-mn {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.row.obd-top-bar-main-order-main-dashboard-ex-pdd .col-md-2 {
+    margin: 0px;
+    padding: 0px;
+}
+.row.obd-top-bar-main-order-main-dashboard-ex-pdd .col-md-10 {
+    padding-left: 22px;
+}
+/* Order Main Box Start -------- */
+
+/* Only Order Box start */
+.obd-top-bar-main-order-total-count-boxx-single-item-box-orderx {
+    border-radius: 12px;
+    box-shadow: 0 5px 12px -2px rgb(205 130 249);
+    background: linear-gradient(90deg,#CD35EC, #9E4FF6);
+    padding: 15px 12px 10px 12px;
+}
+.row.obd-top-bar-main-order-total-count-boxx {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+.row.obd-top-bar-main-order-total-count-boxx .col-md-3 {
+    padding: 9px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-lft-order h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-lft-order h5 {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: .70;
+    margin-top: -4px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-lft-icon-order span {
+    font-size: 13px;
+    color: #fff;
+    opacity: .80;
+    margin-left: 5px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-lft-icon-order img {
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 50px;
+    width: 24px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-lft-icon-order {
+    margin-top: 19px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img {
+    background-color: #C78EFC;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img img {
+    width: 17px;
+    margin-top: 11px;
+    margin-left: 1px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-order h4 {
+    font-size: 13px;
+    color: #fff;
+    opacity: .80;
+    margin-top: 27px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-order h4 i.fas {
+    font-size: 11px;
+    margin-right: 1px;
+}
+/* Only Order Box end ------ */
+
+/* Only Total Sale Start */
+.obd-top-bar-main-order-total-count-boxx-single-item-box-total-salex {
+    border-radius: 12px;
+    box-shadow: 0 5px 12px -2px rgb(253 171 109);
+    background: linear-gradient(90deg, #F7B032, #FB5A1D);
+    padding: 15px 12px 10px 12px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-ttl-sl {
+    background-color: #FF9D70;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-ttl-sl img {
+    width: 19px;
+    margin-top: 14px;
+    margin-left: 0px;
+}
+/* Only Total Sale End ---------- */
+
+/* Only Total Revnu Start */
+.obd-top-bar-main-order-total-count-boxx-single-item-box-total-revnu {
+    border-radius: 12px;
+    box-shadow: 0 5px 12px -2px rgb(134 117 251);
+    background: linear-gradient(90deg, #6814CC, #3957ED);
+    padding: 15px 12px 10px 12px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-revn {
+    background-color: #8590F4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-revn img {
+    width: 16px;
+    margin-top: 11px;
+    margin-left: 0px;
+}
+/* Only Total Revnu End ---------- */
+
+/* Only New User Start */
+.obd-top-bar-main-order-total-count-boxx-single-item-box-new-user {
+    border-radius: 12px;
+    box-shadow: 0 5px 12px -2px rgb(253 140 126);
+    background: linear-gradient(90deg, #F21E60, #FC5A13);
+    padding: 15px 12px 10px 12px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-new-user {
+    background-color: #FF926F;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.obd-top-bar-main-order-total-count-boxx-single-item-ordr-right-icon-img-new-user img {
+    width: 20px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+/* Only New User End ---------- */
+
+/* Order Main Box End -------- */
+
+/* Chart Box Start Bar Chart */
+.obd-business-overview-and-day-month-sec-das-hed h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5D616D;
+}
+.obd-business-overview-and-day-month-sec-das-month-wek-yr-sec ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-business-overview-and-day-month-sec-das-month-wek-yr-sec ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #5D616D;
+    background-color: #EFF1F7;
+    border-radius: 6px;
+    padding: 2px 15px 2px 15px;
+}
+.obd-business-overview-and-day-month-sec-das-month-wek-yr-sec ul li:hover {
+    background-color: #FF6347;
+    color: #fff;
+    transition: .2s;
+}
+.obd-business-overview-and-day-month-sec-dashbrd {
+    margin-bottom: 13px;
+}
+.obd-main-dashboard-main-sec-main-chart-box-wv {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+/* Chart Box End Bar Chart ---------------- */
+
+/* Pie Chart Start ------------- */
+.obd-main-dashboard-main-sec-main-chart-box-pie-chrt-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    height: 394px;
+}
+.obd-main-dashboard-main-sec-main-chart-box-pie-chrt-hed h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5D616D;
+    margin-bottom: 12px;
+}
+/* Pie Chart End ------------- */

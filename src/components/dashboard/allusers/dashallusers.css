@@ -1,0 +1,85 @@
+.obd-recent-order-bx-product-and-new-user-dash-board-main-box-addp {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* Recent head color start */
+.orponbd-recent-order-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.orponbd-recent-order-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.orponbd-recent-order-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.orponbd-recent-order-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-recent-orderxv {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+/* REcent head color End */
+
+/* Table Box start */
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box {
+    margin-top: 25px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    color: #5D616D;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+/* New Table code */
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody {
+    border: none !important;
+}
+.obd-recent-order-bx-product-and-new-user-dash-board-table-box table tbody tr {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* New Table code */
+/* Table Box End */

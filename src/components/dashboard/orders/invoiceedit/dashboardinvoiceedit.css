@@ -1,0 +1,651 @@
+/* Order Id And Back Button start */
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-btn {
+    margin-top: 20px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-lnk-list ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-lnk-list ul li {
+    display: inline-block;
+    margin-right: 7px;
+    color: #464951;
+    font-weight: 500;
+    font-size: 13px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-lnk-list ul li a {
+    font-weight: 400;
+    color: #9A9CA3;
+    text-decoration: none;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-lnk-list ul li a span {
+    margin-left: 2px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-lnk-list ul li a:hover {
+    color: #666a7d;
+    transition: .2s;
+}
+
+/* Back btn */
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-idd-tx h3 {
+    color: #464951;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-idd-tx h3 span {
+    color: #9A9CA3;
+    font-weight: 400;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-idd-tx {
+    position: relative;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-bk-to-orddr a {
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    background-color: #FF6347;
+    color: #fff;
+    padding: 6px 16px 6px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-bk-to-orddr a span {
+    margin-right: 3px;
+    font-size: 12px;
+}
+.obd-all-order-details-editt-dashboard-main-section-order-id-and-back-order-bk-to-orddr a:hover {
+    background-color: #fd3916;
+    transition: .2s;
+}
+/* Back btn */
+/* Order Id And Back Button end ------- */
+
+/* Tab Section Start */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-tabs-main-box {
+    margin-top: 30px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    height: 370px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft .nav-tabs .nav-link.active {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #464951;
+    border: none;
+    border-bottom: 2px solid #FF6347;
+    font-weight: 500;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft .nav-tabs .nav-link.active:hover {
+    border: none;
+    border-bottom: 2px solid #FF6347;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft .nav-tabs .nav-link {
+    color: #9A9CA3;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 20px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-tab-box-lft .nav-tabs .nav-link:hover {
+    border: 1px solid #fff;
+    border-bottom: 1px solid #bdbdbd;
+}
+/* Order Details Tab start */
+/* Overview start -- */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft h3 {
+    font-size: 16px;
+    color: #464951;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft {
+    margin-top: 18px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft-sngl-itm h4 {
+    font-size: 13px;
+    color: #9A9CA3;
+    font-weight: 400;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft-sngl-itm {
+    position: relative;
+    margin-bottom: 14px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft-datt h3 {
+    position: absolute;
+    left: 135px;
+    font-size: 13px;
+    color: #464951;
+    font-weight: 500;
+    top: 0px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft-datt h3 span {
+    color: #a7a7a7;
+    margin-right: 2px;
+}
+/* Overvier End --- */
+
+/* Invoice Start */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right {
+    border-left: 1px solid #efefef;
+    padding-left: 50px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right {
+    margin-top: 18px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right h3 {
+    font-size: 16px;
+    color: #464951;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-rightt-sngl-itm h4 {
+    font-size: 13px;
+    color: #9A9CA3;
+    font-weight: 400;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-rightt-sngl-itm {
+    position: relative;
+    margin-bottom: 14px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-invp h3 {
+    position: absolute;
+    right: 20px;
+    font-size: 13px;
+    color: #464951;
+    font-weight: 500;
+    top: 0px;
+}
+
+/* Balance txt */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-rightt-sngl-itm.balance-clr {
+    background-color: #EFF1F7;
+    color: #333;
+    padding: 9px 10px 2px 6px;
+    border-radius: 8px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-rightt-sngl-itm.balance-clr h4 {
+    color: #ff6347;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-invp.blnsab h3 {
+    color: #ff6347;
+    font-weight: 600;
+    font-size: 15px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-invp.blnsab h3 {
+    margin-top: 9px;
+}
+/* Balance txt */
+/* Invoice End --- */
+/* Order Details Tab end -------*/
+
+/* Order Status Tab start -------*/
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-lft-statusz {
+    margin-top: 16px;
+}
+
+/* Status head color start */
+.orponbd-order-summary-edit-status-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.orponbd-order-summary-edit-status-bx-color-section-box {
+    position: relative;
+}
+.obd-all-order-dettls-editdash-invoice-status-head-color-box-sec {
+    margin-bottom: 17px;
+    margin-top: 5px;
+}
+.orponbd-order-summary-edit-statuxs-bx-txtt-hd h4 {
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #464951;
+    font-weight: 600;
+}
+.orponbd-order-summary-edit-statuxs-bx-txtt-hd {
+    padding-bottom: 4px;
+}
+.orponbd-order-summary-edit-statuxs-bx-txtt-hd {
+    position: relative;
+}
+/* Status head color End */
+/* Status - Pending and Update Button start */
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab ul li button {
+    background-color: #FF6347;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 16px 5px 16px;
+    outline: none;
+    color: #ff6347;
+    border: none;
+    color: #fff;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab select {
+    background-color: #F7F8FB;
+    padding: 4px 10px 3px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    outline: none;
+    width: 170px;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab ul li button:hover {
+    transition: .2s;
+    background-color: #fd401e;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab ul li button span {
+    margin-right: 3px;
+    font-size: 10px;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-ab {
+    position: absolute;
+    right: 0px;
+    top: -2px;
+}
+/* Status - Pending and Update Button end ----------*/
+
+/* Order Status Tab end -------*/
+
+/* Order Payment Details Tab Start -------*/
+li.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-payment-dtls button {
+    background-color: #F7F8FB !important;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 16px 5px 16px;
+    outline: none;
+    border: none;
+    color: #464951 !important;
+    border: 1px solid #dadada !important;
+}
+li.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-payment-dtls button span {
+    margin-right: 6px !important;
+    font-size: 11px !important;
+}
+li.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-statuus-payment-dtls button:hover {
+    background-color: #e8e7e7 !important;
+    transition: .2s;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.payment-dtls-stts button {
+    border: none;
+    background-color: #52E378;
+    color: #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 2px 9px 2px 9px;
+    height: 24px;
+    line-height: 20px;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.payment-dtls-stts button:hover {
+    background-color: #25d854;
+    transition: .2s;
+}
+/* Order Payment Details Tab End -------*/
+
+/* Order Refund Tab Start -------*/
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.refund-pdf-prients button {
+    border: none;
+    background: none;
+    color: #5D616D;
+    border-top-left-radius: 0px;
+    padding: 2px 3px 2px 3px;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.refund-pdf-prients button span {
+    margin-right: 2px;
+    color: #b5b5b5;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.refund-pdf-prients button:hover {
+    color: #f76f56;
+    transition: .2s;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item.refund-pdf-prients button:hover span {
+    color: #f76f56;
+}
+/* Order Refund Tab End -------*/
+
+/* Tab Section End ---------- */
+
+/* Customer Details Section Start */
+.obd-all-order-details-editt-dashboard-main-section-orders-custm-det-right {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    height: 370px;
+}
+
+/* Edit Button Section Start-- */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-detls {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-detls h4 {
+    font-size: 16px;
+    color: #464951;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-dtls-ab button {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    background-color: #FFEEEB;
+    border: 1px solid #FF6347;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+    padding: 4px 13px 4px 14px;
+    color: #FF6347;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-dtls-ab button span {
+    margin-right: 3px;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-dtls-ab button:hover {
+    background-color: #FF6347;
+    transition: .2s;
+    color: #fff;
+}
+/* Edit Button Section End ---- */
+
+/* First Name Last Name Start ----- */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-fnm-hd {
+    position: relative;
+    margin-bottom: 11px;
+    margin-top: 18px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-fnm-hd h4 {
+    font-size: 13px;
+    color: #9A9CA3;
+    font-weight: 400;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-lnmhd-ab h4 {
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-fnm-hd.mnnam h4 {
+    color: #464951;
+    font-weight: 500;
+}
+span.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-lnmhd-ab.mnab h4 {
+    color: #464951;
+    font-weight: 500;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-fnm-hd.mnnam {
+    margin-top: 11px;
+}
+/* First Name Last Name End ---- */
+
+/* Address Section start */
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-addrs-dtls h5 {
+    font-size: 13px;
+    color: #9A9CA3;
+    font-weight: 400;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-addrs-dtls p {
+    color: #464951;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-addrs-dtls h4 {
+    color: #464951;
+    font-weight: 500;
+    font-size: 13px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-det-innr-right-custm-addrs-dtls {
+    margin-top: 18px;
+}
+/* Address Section end */
+
+/* Customer Details Section End --------- */
+
+/* Order Summary Table start ---------------------- */
+
+/* Recent head color start */
+.orponbd-order-summary-edit-ordr-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.orponbd-order-summary-edit-ordr-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.obd-all-order-dettls-editdash-invoice-summary-head-color-box-sec {
+    margin-bottom: 17px;
+    margin-top: 5px;
+}
+.orponbd-order-summary-edit-ordr-bx-color-section-box {
+    position: relative;
+}
+.orponbd-order-summary-edit-ordr-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.orponbd-order-summary-edit-ordr-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-order-summary-edit-ordr {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+/* REcent head color End */
+/* Recent Order Add Item Button start */
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab ul li button {
+    background-color: #FF6347;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 5px 16px 4px 16px;
+    outline: none;
+    color: #ff6347;
+    border: none;
+    color: #fff;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab ul li button:hover {
+    transition: .2s;
+    background-color: #fd401e;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab ul li button span {
+    margin-right: 3px;
+    font-size: 10px;
+}
+.orponbd-order-summary-edit-ordr-color-section-box-right-seeall-add-item-ab {
+    position: absolute;
+    right: 0px;
+    top: -2px;
+}
+/* Recent Order Add Item Button end ----------*/
+
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-main-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-top: 22px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec table tbody tr td {
+    border: none;
+    border-bottom: none;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #5D616D;
+    font-weight: 400;
+    line-height: 55px;
+}
+.obd-all-order-details-editt-dashboard-main-section-orders-summary-table-sec.statuss table tbody tr td {
+    line-height: 40px;
+}
+
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item select {
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item select:focus {
+    box-shadow: 0 0 1px 1px #ff6347;
+    border: none;
+}
+
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item input {
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 13px;
+    height: 34px;
+    width: 80px;
+    color: #8c8c8c;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item input:focus {
+    box-shadow: 0 0 1px 1px #ff6347;
+    border: none;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item-cst h4 {
+    background-color: #F7F8FB;
+    padding: 8px 10px 9px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8c;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    width: 85px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+/* Total price delete and setting section */
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item-total-amnt-and-settng ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item-total-amnt-and-settng ul li {
+    display: inline-block;
+}
+.obd-all-order-orders-summary-table-sec-item-total-amnt-and-settng-only-box {
+    margin-left: 38px;
+    margin-right: -37px;
+}
+.obd-all-order-orders-summary-table-sec-item-total-delete-only-icn {
+    margin-bottom: -28px;
+    margin-top: -15px;
+}
+.obd-all-order-dashboard-main-section-orders-summary-table-sec-item-total-amnt-and-settng {
+    margin-bottom: -25px;
+}
+li.obd-all-order-dashboard-main-section-orders-summary-only-prices {
+    position: relative;
+    right: -16px;
+    top: -12px;
+}
+.obd-all-order-orders-summary-table-sec-item-total-setting-only-icn {
+    margin-bottom: -4px;
+}
+
+.obd-all-order-orders-summary-table-sec-item-total-delete-only-icn button {
+    background:none;
+    border: none;
+    outline: none;
+    padding: 1px;
+}
+.obd-all-order-orders-summary-table-sec-item-total-delete-only-icn button span i.fas {
+    color: #cbccd0;
+    font-size: 12px;
+    margin-bottom: -5px;
+}
+.obd-all-order-orders-summary-table-sec-item-total-delete-only-icn button span i.fas:hover {
+    color: #fa957c;
+    transition: .2s;
+}
+.obd-all-order-orders-summary-table-sec-item-total-setting-only-icn button {
+    background-color: #EFF1F7;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 8px;
+    height: 25px;
+    line-height: 21px;
+    font-size: 11px;
+    color: #C7C8CD;
+    padding: 2px 6px 2px 6px;
+}
+.obd-all-order-orders-summary-table-sec-item-total-setting-only-icn button:hover {
+    background-color: #cbd0e0;
+    transition: .2s;
+    color: #7b7b7b;
+}
+/* Total price delete and setting section */
+
+/* Order Summary Table end */
