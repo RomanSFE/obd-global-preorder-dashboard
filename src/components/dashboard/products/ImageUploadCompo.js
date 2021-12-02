@@ -44,9 +44,15 @@ const ImageUploadCompo = () => {
       </div>
 
       <div className="form-group image-upload-img-cls">
+        <span class="label">
+          <p><i class="fas fa-upload"></i></p>
+          Upload File
+        </span>
+
         <input
+          id="upload-cls"
           type="file"
-          disabled={file.length === 5}
+          disabled={file.length === 6}
           className="form-control"
           onChange={uploadSingleFile}
           multiple
