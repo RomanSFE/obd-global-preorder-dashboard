@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DashboardSidebar from '../dashboardsidebar/DashboardSidebar';
 import DashboardTopBar from '../dashboardtopbar/DashboardTopBar';
-import './dashallproduct.css'
+import './dashaddproduct.css'
 
 import RichTextEditor from 'react-rte';
 import ImageUploadCompo from './ImageUploadCompo';
@@ -100,6 +100,30 @@ export default class DashAddProduct extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {/* Single Item End */}
+                                                {/* Single Item Start */}
+                                                <div className="row obd-preorder-add-product-bx-sng-ex-pdz">
+                                                    <div className="col-md-2">
+                                                        <div className="obd-preorder-add-product-bx-lft-hdtxt">
+                                                            <h4>Category :</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-10">
+                                                        <div className="obd-preorder-add-product-bx-rt-inpt-fld">
+                                                            <select>
+                                                                <option value="">--- Select Category ---</option>
+                                                                <option value="">kitchen Accessories</option>
+                                                                <option value="">Mens Fashion</option>
+                                                                <option value="">Womens Fashion</option>
+                                                                <option value="">Home And Living</option>
+                                                                <option value="">Baby Zone</option>
+                                                                <option value="">Smart Watches</option>
+                                                                <option value="">Mobile Accessories</option>
+                                                                <option value="">Accessories</option>
+                                                            </select>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -96,7 +96,10 @@ export default class DashboardOrder extends Component {
                                                         <table class="table table-bordered">
                                                             <thead style={{borderRadius: '8px'}}>
                                                                 <tr>
-                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">Order No</th>
+                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">
+                                                                        <input type="checkbox" />
+                                                                    </th>
+                                                                    <th scope="col col-6">Order No</th>
                                                                     <th scope="col col-6">Date</th>
                                                                     <th scope="col col-6">Customer Name</th>
                                                                     <th scope="col col-6">Address</th>
@@ -109,8 +112,9 @@ export default class DashboardOrder extends Component {
                                                             <tbody>
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Bkash</td>
@@ -142,8 +146,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -175,8 +180,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -208,8 +214,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -288,12 +295,32 @@ export default class DashboardOrder extends Component {
                                                             </div>
                                                         </div>
                                                         {/* Head sec end */}
+                                                        {/* Set Status Start */}
+                                                        <div className="obd-all-store-ordersx-bxc-set-status-mn">
+                                                            <ul>
+                                                                <li>
+                                                                    <select>
+                                                                        <option value="" selected>Set Status</option>
+                                                                        <option value="">Approved</option>
+                                                                        <option value="">Cancelled</option>
+                                                                        <option value="">Pending</option>
+                                                                        <option value="">Delivered</option>
+                                                                        <option value="">In Transit</option>
+                                                                    </select>
+                                                                </li>
+                                                                <li className="obd-store-ordersx-set-status-aply-btn">
+                                                                    <button type="submit">Apply</button>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        {/* Set Status End */}
                                                         {/* Recent Order Table Box Start */}
                                                         <div className="obd-all-orders-order-bx-product-and-new-user-dash-board-table-box">
                                                             <table class="table table-bordered">
                                                                 <thead style={{borderRadius: '8px'}}>
                                                                     <tr>
-                                                                        <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">Order No</th>
+                                                                        <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6"><input type="checkbox" /></th>
+                                                                        <th scope="col col-6">Order No</th>
                                                                         <th scope="col col-6">Date</th>
                                                                         <th scope="col col-6">Customer Name</th>
                                                                         <th scope="col col-6">Address</th>
@@ -306,8 +333,9 @@ export default class DashboardOrder extends Component {
                                                                 <tbody>
                                                                     {/* single Item start */}
                                                                     <tr>
+                                                                        <td><input type="checkbox" /></td>
                                                                         <td>252545524</td>
-                                                                        <td style={{textAlign: 'center'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
+                                                                        <td style={{textAlign: 'left'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
                                                                         <td>Customer Full Name</td>
                                                                         <td>Shipping address</td>
                                                                         <td style={{textAlign: 'center'}}>Bkash</td>
@@ -339,8 +367,9 @@ export default class DashboardOrder extends Component {
                                                                     {/* Single Item End */}
                                                                     {/* single Item start */}
                                                                     <tr>
+                                                                        <td><input type="checkbox" /></td>
                                                                         <td>252545524</td>
-                                                                        <td style={{textAlign: 'center'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
+                                                                        <td style={{textAlign: 'left'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
                                                                         <td>Customer Full Name</td>
                                                                         <td>Shipping address</td>
                                                                         <td style={{textAlign: 'center'}}>Bkash</td>
@@ -370,40 +399,6 @@ export default class DashboardOrder extends Component {
                                                                         </td>
                                                                     </tr>
                                                                     {/* Single Item End */}
-                                                                    {/* single Item start */}
-                                                                    <tr>
-                                                                        <td>252545524</td>
-                                                                        <td style={{textAlign: 'center'}}>2 Sep, 2020  <br/> <span>3:00 PM</span></td>
-                                                                        <td>Customer Full Name</td>
-                                                                        <td>Shipping address</td>
-                                                                        <td style={{textAlign: 'center'}}>Bkash</td>
-                                                                        <td style={{textAlign: 'center'}}>৳ 2400</td>
-                                                                        <td style={{textAlign: 'center'}}>
-                                                                            <div className="obd-recent-order-bx-product-and-payment-stts-sec">
-                                                                                <div className="obd-recent-order-bx-product-and-payment-stts-pendng">
-                                                                                    <button>Pending</button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </td>
-                                                                        <td style={{textAlign: 'center'}}>
-                                                                            <div className="obd-alll-orderx-bx-product-and-action-bx-main-box">
-                                                                                <ul>
-                                                                                    <li>
-                                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                            <Link to="/dashboard-invoice-details"><i class="far fa-eye"></i></Link>
-                                                                                        </div>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                            <Link to="/"><i class="far fa-edit"></i></Link>
-                                                                                        </div>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                    {/* Single Item End */}
-
                                                                 </tbody>
                                                             </table>
                                                             {/* Pagination Start */}
@@ -452,12 +447,33 @@ export default class DashboardOrder extends Component {
                                                         </div>
                                                     </div>
                                                     {/* Head sec end */}
+                                                    {/* Set Status Start */}
+                                                    <div className="obd-all-store-ordersx-bxc-set-status-mn">
+                                                        <ul>
+                                                            <li>
+                                                                <select>
+                                                                    <option value="" selected>Set Status</option>
+                                                                    <option value="">Approved</option>
+                                                                    <option value="">Cancelled</option>
+                                                                    <option value="">Pending</option>
+                                                                    <option value="">Delivered</option>
+                                                                    <option value="">In Transit</option>
+                                                                </select>
+                                                            </li>
+                                                            <li className="obd-store-ordersx-set-status-aply-btn">
+                                                                <button type="submit">Apply</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* Set Status End */}
+
                                                     {/* Recent Order Table Box Start */}
                                                     <div className="obd-all-orders-order-bx-product-and-new-user-dash-board-table-box">
                                                         <table class="table table-bordered">
                                                             <thead style={{borderRadius: '8px'}}>
                                                                 <tr>
-                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">Order No</th>
+                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6"><input type="checkbox" /></th>
+                                                                    <th scope="col col-6">Order No</th>
                                                                     <th scope="col col-6">Date</th>
                                                                     <th scope="col col-6">Customer Name</th>
                                                                     <th scope="col col-6">Address</th>
@@ -471,8 +487,9 @@ export default class DashboardOrder extends Component {
                                                                 
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -504,8 +521,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -535,73 +553,6 @@ export default class DashboardOrder extends Component {
                                                                     </td>
                                                                 </tr>
                                                                 {/* Single Item End */}
-                                                                {/* single Item start */}
-                                                                <tr>
-                                                                    <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
-                                                                    <td>Customer Full Name</td>
-                                                                    <td>Shipping address</td>
-                                                                    <td style={{textAlign: 'center'}}>Card</td>
-                                                                    <td style={{textAlign: 'center'}}>৳ 2400</td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-recent-order-bx-product-and-payment-stts-sec">
-                                                                            <div className="obd-recent-order-bx-product-and-payment-stts-deliverd">
-                                                                                <button>Delivered</button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx-main-box">
-                                                                            <ul>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/dashboard-invoice-details"><i class="far fa-eye"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/"><i class="far fa-edit"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                {/* Single Item End */}
-                                                                {/* single Item start */}
-                                                                <tr>
-                                                                    <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
-                                                                    <td>Customer Full Name</td>
-                                                                    <td>Shipping address</td>
-                                                                    <td style={{textAlign: 'center'}}>Card</td>
-                                                                    <td style={{textAlign: 'center'}}>৳ 2400</td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-recent-order-bx-product-and-payment-stts-sec">
-                                                                            <div className="obd-recent-order-bx-product-and-payment-stts-deliverd">
-                                                                                <button>Delivered</button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx-main-box">
-                                                                            <ul>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/dashboard-invoice-details"><i class="far fa-eye"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/"><i class="far fa-edit"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                {/* Single Item End */}
-
                                                             </tbody>
                                                         </table>
                                                         {/* Pagination Start */}
@@ -650,12 +601,33 @@ export default class DashboardOrder extends Component {
                                                         </div>
                                                     </div>
                                                     {/* Head sec end */}
+                                                    {/* Set Status Start */}
+                                                    <div className="obd-all-store-ordersx-bxc-set-status-mn">
+                                                        <ul>
+                                                            <li>
+                                                                <select>
+                                                                    <option value="" selected>Set Status</option>
+                                                                    <option value="">Approved</option>
+                                                                    <option value="">Cancelled</option>
+                                                                    <option value="">Pending</option>
+                                                                    <option value="">Delivered</option>
+                                                                    <option value="">In Transit</option>
+                                                                </select>
+                                                            </li>
+                                                            <li className="obd-store-ordersx-set-status-aply-btn">
+                                                                <button type="submit">Apply</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* Set Status End */}
+
                                                     {/* Recent Order Table Box Start */}
                                                     <div className="obd-all-orders-order-bx-product-and-new-user-dash-board-table-box">
                                                         <table class="table table-bordered">
                                                             <thead style={{borderRadius: '8px'}}>
                                                                 <tr>
-                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">Order No</th>
+                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6"><input type="checkbox" /></th>
+                                                                    <th scope="col col-6">Order No</th>
                                                                     <th scope="col col-6">Date</th>
                                                                     <th scope="col col-6">Customer Name</th>
                                                                     <th scope="col col-6">Address</th>
@@ -669,8 +641,9 @@ export default class DashboardOrder extends Component {
 
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -702,41 +675,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
-                                                                    <td>Customer Full Name</td>
-                                                                    <td>Shipping address</td>
-                                                                    <td style={{textAlign: 'center'}}>Card</td>
-                                                                    <td style={{textAlign: 'center'}}>৳ 2400</td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-recent-order-bx-product-and-payment-stts-sec">
-                                                                            <div className="obd-recent-order-bx-product-and-payment-stts-in-transt">
-                                                                                <button>In Transit</button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx-main-box">
-                                                                            <ul>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/dashboard-invoice-details"><i class="far fa-eye"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/"><i class="far fa-edit"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                {/* Single Item End */}
-                                                                {/* single Item start */}
-                                                                <tr>
-                                                                    <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -815,12 +756,33 @@ export default class DashboardOrder extends Component {
                                                         </div>
                                                     </div>
                                                     {/* Head sec end */}
+                                                    {/* Set Status Start */}
+                                                    <div className="obd-all-store-ordersx-bxc-set-status-mn">
+                                                        <ul>
+                                                            <li>
+                                                                <select>
+                                                                    <option value="" selected>Set Status</option>
+                                                                    <option value="">Approved</option>
+                                                                    <option value="">Cancelled</option>
+                                                                    <option value="">Pending</option>
+                                                                    <option value="">Delivered</option>
+                                                                    <option value="">In Transit</option>
+                                                                </select>
+                                                            </li>
+                                                            <li className="obd-store-ordersx-set-status-aply-btn">
+                                                                <button type="submit">Apply</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* Set Status End */}
+
                                                     {/* Recent Order Table Box Start */}
                                                     <div className="obd-all-orders-order-bx-product-and-new-user-dash-board-table-box">
                                                         <table class="table table-bordered">
                                                             <thead style={{borderRadius: '8px'}}>
                                                                 <tr>
-                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6">Order No</th>
+                                                                    <th style={{borderTopLeftRadius: '8px',borderBottomLeftRadius: '8px'}} scope="col col-6"><input type="checkbox" /></th>
+                                                                    <th scope="col col-6">Order No</th>
                                                                     <th scope="col col-6">Date</th>
                                                                     <th scope="col col-6">Customer Name</th>
                                                                     <th scope="col col-6">Address</th>
@@ -833,8 +795,9 @@ export default class DashboardOrder extends Component {
                                                             <tbody>
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
@@ -866,41 +829,9 @@ export default class DashboardOrder extends Component {
                                                                 {/* Single Item End */}
                                                                 {/* single Item start */}
                                                                 <tr>
+                                                                    <td><input type="checkbox" /></td>
                                                                     <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
-                                                                    <td>Customer Full Name</td>
-                                                                    <td>Shipping address</td>
-                                                                    <td style={{textAlign: 'center'}}>Card</td>
-                                                                    <td style={{textAlign: 'center'}}>৳ 2400</td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-recent-order-bx-product-and-payment-stts-sec">
-                                                                            <div className="obd-recent-order-bx-product-and-payment-stts-cancelld">
-                                                                                <button>Cancelled</button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </td>
-                                                                    <td style={{textAlign: 'center'}}>
-                                                                        <div className="obd-alll-orderx-bx-product-and-action-bx-main-box">
-                                                                            <ul>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/dashboard-invoice-details"><i class="far fa-eye"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <div className="obd-alll-orderx-bx-product-and-action-bx">
-                                                                                        <Link to="/"><i class="far fa-edit"></i></Link>
-                                                                                    </div>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                {/* Single Item End */}
-                                                                {/* single Item start */}
-                                                                <tr>
-                                                                    <td>252545524</td>
-                                                                    <td style={{textAlign: 'center'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
+                                                                    <td style={{textAlign: 'left'}}>2 Sep, 2020 <br/> <span>3:00 PM</span></td>
                                                                     <td>Customer Full Name</td>
                                                                     <td>Shipping address</td>
                                                                     <td style={{textAlign: 'center'}}>Card</td>
