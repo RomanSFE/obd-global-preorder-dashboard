@@ -1,0 +1,84 @@
+.obd-preorder-add-cat-dash-main-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* Recent head color start */
+.obd-preorder-ct-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.obd-preorder-ct-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.obd-preorder-ct-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.obd-preorder-ct-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-preorderz-ct {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+/* REcent head color End */
+
+/* Input Items Start */
+.obd-preorder-add-catg-bx-main-wrap {
+    margin-top: 25px;
+}
+.row.obd-preorder-add-catg-bx-sng-ex-pdz {
+    margin-bottom: 25px;
+}
+.obd-preorder-add-catg-bx-lft-hdtxt h4 {
+    font-size: 14px;
+    color: #464951;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.obd-preorder-add-catg-bx-rt-inpt-fld input {
+    width: 70%;
+    height: 38px;
+    font-size: 13px;
+    padding: 7px;
+    color: #333;
+    border-radius: 6px;
+    outline: none;
+    background-color: #f7f8f9;
+    border: 1px solid #e9e9e9;
+}
+.obd-preorder-add-catg-bx-rt-inpt-fld input::placeholder {
+    color: #b9b9b9;
+}
+
+/* Save Button */
+.obd-add-prod-save-bbtn button {
+    background-color: #ff6347;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 7px 35px 7px 35px;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.obd-add-prod-save-bbtn {
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+.obd-add-prod-save-bbtn button:hover {
+    background-color: #f73f1d;
+    transition: .3s;
+}
+/* Save Button */
+/* Input Items End */

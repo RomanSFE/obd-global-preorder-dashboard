@@ -1,0 +1,148 @@
+.obd-preorder-all-catz-main-box-addp {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* Recent head color start */
+.obd-preorder-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.obd-preorder-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.obd-preorder-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.obd-preorder-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-preorderz {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+/* REcent head color End */
+
+/* Table Box start */
+.obd-preorder-all-catz-dashz-table-box {
+    margin-top: 25px;
+}
+.obd-preorder-all-catz-dashz-table-box table thead {
+    border: none !important;
+    background-color: #EFF1F7;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.obd-preorder-all-catz-dashz-table-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-preorder-all-catz-dashz-table-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.obd-preorder-all-catz-dashz-table-box table tbody tr td {
+    color: #5D616D;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-preorder-all-catz-dashz-table-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-preorder-all-catz-dashz-table-box table tbody tr td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-preorder-all-catz-dashz-table-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+/* New Table code */
+.obd-preorder-all-catz-dashz-table-box table tbody {
+    border: none !important;
+}
+.obd-preorder-all-catz-dashz-table-box table tbody tr {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+/* New Table code */
+/* Table Box End */
+
+/* Switch Button Start */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 21px;
+}
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(226, 226, 226);
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: rgb(226, 226, 226);
+    transition: .4s;
+    outline: none;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    top: 3px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #FF6347;
+}
+/* input:focus + .slider {
+    box-shadow: 0 0 1px #FF6347;
+} */
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.obd-all-store-list-dash-sng-act-ck-stats {
+    margin-top: 8px;
+}
+/* Switch Button End ----------------*/

@@ -11,6 +11,10 @@ import DashHomepage from './components/homepage/DashHomepage';
 import DashAllProducts from './components/dashboard/products/DashAllProducts';
 import DashAddProduct from './components/dashboard/products/DashAddProduct';
 import DashAllUsers from './components/dashboard/allusers/DashAllUsers';
+
+import AllCategories from './components/dashboard/allcategorybox/AllCategories';
+import AddCategory from './components/dashboard/allcategorybox/AddCategory';
+import EditCategory from './components/dashboard/allcategorybox/EditCategory';
 // Main Dashboard End
 
 function App() {
@@ -25,6 +29,10 @@ function App() {
           <Route path="/dash-all-products" component={DashAllProducts}/>
           <Route path="/dash-add-product" component={DashAddProduct}/>
           <Route path="/dash-all-users" component={DashAllUsers}/>
+
+          <Route path="/all-categories" component={AllCategories}/>
+          <Route path="/add-category" component={AddCategory}/>
+          <Route path="/edit-category" component={EditCategory}/>
           {/*Main Dashboard end*/}
 
         </Switch>

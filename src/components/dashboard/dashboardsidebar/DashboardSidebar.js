@@ -32,6 +32,14 @@ export default class DashboardSidebar extends Component {
                                 </ul>
                             </div>
                         </Panel>
+                        <Panel showArrow={false} header={<p><img src={require('../../../assets/dashboard-orders-icon.png')} alt=""/> <span>Category</span> <span className="obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn text-right"><i className="fas fa-angle-right"></i></span></p>}>
+                            <div className="obd-dashboard-left-sidebar-main-wv-item-menu-content-inner">
+                                <ul>
+                                    <li><NavLink to="/all-categories" activeClassName="selectedLink" activeStyle={{color:'#f1f1f1',fontWeight: "normal",fontSize: '13px',backgroundColor: 'rgba(249, 249, 249,.3)', display: 'block', padding: '4px 0px 4px 0px'}}><img src={require('../../../assets/dashboard-sub-menu-das-icon.svg')} alt=""/>All Categories</NavLink></li>
+                                    <li><NavLink to="/add-category" activeStyle={{color:'#f1f1f1',fontWeight: "normal",fontSize: '13px',backgroundColor: 'rgba(249, 249, 249,.3)', display: 'block', padding: '4px 0px 4px 0px'}}><img src={require('../../../assets/dashboard-sub-menu-das-icon.svg')} alt=""/> Add Category</NavLink></li>
+                                </ul>
+                            </div>
+                        </Panel>
                         <NavLink to="/dash-all-users" activeStyle={{color:'#f1f1f1',fontWeight: "normal",}}>
                             <Panel showArrow={false} header={<p><img src={require('../../../assets/dashboard-orders-icon.png')} alt=""/> <span>All Users</span> <span className="obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn text-right"><i className="fas fa-angle-right"></i></span></p>}></Panel>
                         </NavLink>

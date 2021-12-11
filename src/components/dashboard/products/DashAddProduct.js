@@ -17,7 +17,14 @@ export default class DashAddProduct extends Component {
             // For Text Editor Start 
             value: RichTextEditor.createEmptyValue(),
             // For Text Editor End
-        };
+
+            // For Tags ----
+            tags: [],
+            // For Tags ----
+            };
+            // For Tags
+            this.reactTags = React.createRef()
+            // For Tags
     }
     
     // For Text Editor Start
@@ -25,8 +32,32 @@ export default class DashAddProduct extends Component {
     this.setState({value});
     };
     // For Text Editor End
+
+    // For Tags Start
+    removeTag = (i) => {
+        const newTags = [ ...this.state.tags ];
+        newTags.splice(i, 1);
+        this.setState({ tags: newTags });
+      }
+    
+      inputKeyDown = (e) => {
+        const val = e.target.value;
+        if (e.key === 'Enter' && val) {
+          if (this.state.tags.find(tag => tag.toLowerCase() === val.toLowerCase())) {
+            return;
+          }
+          this.setState({ tags: [...this.state.tags, val]});
+          this.tagInput.value = null;
+        } else if (e.key === 'Backspace' && !val) {
+          this.removeTag(this.state.tags.length - 1);
+        }
+      }
+    // For Tags End
       
     render() {
+        // For Tags
+        const { tags } = this.state;
+        // For Tags
         return (
             <>
             <div className="example-sasjghdjhgs">
@@ -141,6 +172,30 @@ export default class DashAddProduct extends Component {
                                                                 value={this.state.value}
                                                                 onChange={this.onChange}
                                                             />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {/* Single Item End */}
+                                                {/* Single Item Start */}
+                                                <div className="row obd-preorder-add-product-bx-sng-ex-pdz">
+                                                    <div className="col-md-2">
+                                                        <div className="obd-preorder-add-product-bx-lft-hdtxt">
+                                                            <h4>Keywords :</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-10">
+                                                        <div className="obd-preorder-add-product-bx-rt-inpt-tags-fld">
+                                                            <div className="input-tag obd-preorder">
+                                                                <ul className="input-tag__tags-obd-preorder">
+                                                                { tags.map((tag, i) => (
+                                                                    <li key={tag}>
+                                                                    {tag}
+                                                                    <button type="button" onClick={() => { this.removeTag(i); }}>+</button>
+                                                                    </li>
+                                                                ))}
+                                                                <li className="input-tag__tags__input-obd-preorder"><input type="text" placeholder="Add Keywords.." onKeyDown={this.inputKeyDown} ref={c => { this.tagInput = c; }} /></li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>

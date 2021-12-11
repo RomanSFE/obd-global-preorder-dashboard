@@ -214,3 +214,72 @@ button.image-upload-img-delet i.fas:hover {
 }
 /* Input Css  */
 /* Image Upload Css End */
+
+/* Tags Start -------------------- */
+.obd-preorder-add-product-bx-rt-inpt-tags-fld .input-tag {
+    background: white;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 5px 5px 5px;
+    width: 70%;
+    border-radius: 6px;
+    font-size: 13px;
+    height: auto;
+}
+  
+  .input-tag.obd-preorder input {
+    border: none;
+    width: 140px;
+    outline: none;
+    background-color: #f1f1f1;
+    padding: 5px;
+  }
+  
+  .input-tag__tags-obd-preorder {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .input-tag__tags-obd-preorder li {
+    align-items: center;
+    background: #ff9886;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    list-style: none;
+    margin-right: 5px;
+    padding: 5px 10px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+  }
+  
+  .input-tag__tags-obd-preorder li button {
+    align-items: center;
+    appearance: none;
+    background: #f8f8f8;
+    border: none;
+    border-radius: 50%;
+    color: rgb(255, 49, 49);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    height: 15px;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 8px;
+    padding: 0;
+    transform: rotate(45deg);
+    width: 15px;
+  }
+  
+  .input-tag__tags-obd-preorder li.input-tag__tags__input-obd-preorder {
+    background: none;
+    flex-grow: 1;
+    padding: 0;
+  }
+/* Tags End */
