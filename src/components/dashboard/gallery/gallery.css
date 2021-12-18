@@ -1,0 +1,304 @@
+.obd-dash-gallery-main-box-addp {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* Recent head color start */
+.orponbd-recent-order-bx-txtt-hd h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 14px;
+}
+.orponbd-gallery-bx-color-section-box {
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+.orponbd-recent-order-bx-txtt-hd{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.orponbd-recent-order-bx-txtt-hd {
+    position: relative;
+}
+.flltrr-bbttn-brdr-recent-orderxv {
+    position: absolute;
+    border: 1px solid #FF6347;
+    width: 105px;
+    bottom: -2px;
+}
+
+/* Search */
+.obd-gallery-dash-right-secz {
+    position: absolute;
+    right: 2px;
+    top: -2px;
+}
+.obd-gallery-dash-right-secz ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.obd-gallery-dash-right-secz ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+li.obd-media-xgalleryy-searchh-bx input {
+    background-color: #EFF1F7;
+    padding: 5px 24px 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #232323;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 240px;
+    position: relative;
+}
+li.obd-media-xgalleryy-searchh-bx {
+    margin-left: 15px;
+}
+li.obd-media-xgalleryy-searchh-bx span button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #ababab;
+    font-size: 14px;
+    margin-left: -28px;
+    position: absolute;
+    top: 6px;
+}
+/* Search */
+/* Upload Button */
+li.obd-media-xgalleryy-upload-bx input[type="file"] {
+    display: none;
+}
+li.obd-media-xgalleryy-upload-bx .custom-file-upload {
+    border: 1px solid #FF6347;
+    display: inline-block;
+    padding: 5px 16px;
+    cursor: pointer;
+    background-color: #FF6347;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+}
+li.obd-media-xgalleryy-upload-bx label:hover {
+    background-color: #ff4c2c;
+    transition: .2s;
+}
+/* Upload Button */
+/* REcent head color End */
+
+/* Gallery Box start */
+.obd-gallery-main-sec-cont-box {
+    margin-top: 12px;
+}
+/* Image Hover start */
+.obd-media-xgalleryy-tab-section-bx-tabb-content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+  .obd-media-xgalleryy-tab-section-bx-tabb-content .obd-media-xgalleryy-tab-section-content-overlay {
+    background: rgba(187, 187, 187, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .obd-media-xgalleryy-tab-section-bx-tabb-content:hover .obd-media-xgalleryy-tab-section-content-overlay{
+    opacity: 1;
+  }
+  .content-image{
+    width: 100%;
+  }
+  .obd-media-xgalleryy-tab-content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    right: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .obd-media-xgalleryy-tab-section-bx-tabb-content:hover .obd-media-xgalleryy-tab-content-details{
+    top: 13%;
+    left: 86%;
+    opacity: 1;
+  }
+  .obd-media-xgalleryy-tab-content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  .fadeIn-top{
+    top: 20%;
+  }
+  .fadeIn-left{
+    left: 20%;
+  } 
+  .fadeIn-right{
+    left: 80%;
+  }
+  h3.obd-media-xgalleryy-content-dlt-btn button {
+    border: navajowhite;
+    outline: navajowhite;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 5px 7px 5px 7px;
+    color: #5d5d5d;
+    background-color: #f5f5f5;
+}
+h3.obd-media-xgalleryy-content-dlt-btn button:hover {
+    background-color: #ff6347;
+    transition: .2s;
+    color: #fff;
+}
+
+.obd-media-xgalleryy-tab-section-bx-tabb-content img {
+    width: 100%;
+    height: 184px;
+    border-radius: 6px;
+    border: 1px solid #f1f1f1;
+}
+
+.obd-media-xgalleryy-tab-section-bx-tabb-main-boxx-all-library-cont {
+    margin-top: 20px;
+}
+.row.obd-media-xgalleryy-tab-section-bx-tabb-exx-pddd {
+    margin-top: 1px;
+    padding: 0px 7px;
+}
+.row.obd-media-xgalleryy-tab-section-bx-tabb-exx-pddd .col-md-3 {
+    padding: 5px 6px;
+}
+/* Image Hover End */
+
+/* Edit Btn */
+.obd-media-xgalleryy-edit-details button {
+    display: none;
+    transition: .3s;
+}
+.obd-media-xgalleryy-tab-section-bx-tabb-content:hover .obd-media-xgalleryy-edit-details button {
+    display: block;
+    position: absolute;
+    right: 42px;
+    top: 7px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 3px 6px 5px 6px;
+    color: #13d710;
+    background-color: #f7f7f7;
+    z-index: 999999;
+    transition: .3s;
+}
+.obd-media-xgalleryy-tab-section-bx-tabb-content:hover .obd-media-xgalleryy-edit-details button:hover {
+    color: #fff;
+    background-color: #13d710;
+    transition: .3s;
+}
+/* Edit Btn */
+
+/* Checkbox */
+.obd-media-xgalleryy-edit-check input {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 17px;
+    height: 17px;
+    z-index: 999;
+}
+/* Checkbox */
+
+/* Right Image Update Start */
+.obd-dash-gl-img-edit-main-bx {
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    padding: 10px;
+    height: 100%;
+}
+.obd-dash-gl-img-edit-img h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff6347;
+}
+.obd-dash-gl-img-edit-img img {
+    width: 70%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.obd-dash-gl-img-edit-img-cont {
+    margin-top: 6px;
+}
+.obd-dash-gl-img-edit-img-cont-sngl label {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+.obd-dash-gl-img-edit-img-cont-sngl input {
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #232323;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+}
+.obd-dash-gl-img-edit-img-cont-sngl {
+    margin-bottom: 12px;
+}
+.obd-dash-gl-img-edit-img-up-btn button {
+    background-color: #ff6347;
+    padding: 5px 24px 5px 24px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    text-align: center;
+    margin-top: 15px;
+}
+.obd-dash-gl-img-edit-img-up-btn button:hover {
+    background-color: #f3310e;
+    transition: .3s;
+}
+/* Right Image Update End */
+
+/* Gallery Box End */
