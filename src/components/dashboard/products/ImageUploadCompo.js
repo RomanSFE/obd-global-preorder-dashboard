@@ -25,14 +25,36 @@ const ImageUploadCompo = () => {
 
   return (
     <form>
+      <div className="form-group image-upload-img-cls">
+        <input
+          id="upload-cls"
+          type="file"
+          disabled={file.length === 6}
+          className="form-control"
+          onChange={uploadSingleFile}
+          multiple
+        />
+
+        <span class="label">
+          <p><i class="fas fa-upload"></i></p>
+          Upload File
+        </span>
+      </div>
+      
       <div className="form-group preview image-upload-img-cls-prev">
         {file.length > 0 &&
           file.map((item, index) => {
             return (
               <ul>
                   <li>
-                    <div key={item}>
+                    <div className="extra-img-clsz" key={item}>
                         <img src={item} alt="" />
+                        
+                        <div className="up-img-checkbx-btn">
+                          <input type="checkbox" />
+                        </div>
+
+                        <button className="up-img-edtz-btn"><i className="fas fa-edit"></i></button>
                         <button className="image-upload-img-delet" type="button" onClick={() => deleteFile(index)}>
                             <i className="fas fa-trash"></i>
                         </button>
@@ -43,21 +65,7 @@ const ImageUploadCompo = () => {
           })}
       </div>
 
-      <div className="form-group image-upload-img-cls">
-        <span class="label">
-          <p><i class="fas fa-upload"></i></p>
-          Upload File
-        </span>
-
-        <input
-          id="upload-cls"
-          type="file"
-          disabled={file.length === 6}
-          className="form-control"
-          onChange={uploadSingleFile}
-          multiple
-        />
-      </div>
+      
       {/* <button
         type="button"
         className="btn btn-primary btn-block"

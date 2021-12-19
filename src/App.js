@@ -16,6 +16,7 @@ import AllCategories from './components/dashboard/allcategorybox/AllCategories';
 import AddCategory from './components/dashboard/allcategorybox/AddCategory';
 import EditCategory from './components/dashboard/allcategorybox/EditCategory';
 import DashGallery from './components/dashboard/gallery/DashGallery';
+import DashSettings from './components/dashboard/dashsettings/DashSettings';
 // Main Dashboard End
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/edit-category" component={EditCategory}/>
 
           <Route path="/dash-gallery" component={DashGallery}/>
+          <Route path="/dash-settings" component={DashSettings}/>
           {/*Main Dashboard end*/}
 
         </Switch>

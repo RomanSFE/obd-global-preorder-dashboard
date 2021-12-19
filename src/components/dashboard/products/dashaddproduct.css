@@ -135,12 +135,16 @@
     display: inline-block;
 }
 .form-group.preview.image-upload-img-cls-prev ul li img {
-    width: 140px;
-    height: 140px;
+    width: 175px;
+    height: 175px;
     margin-bottom: 10px;
-    margin-right: 10px;
     border-radius: 6px;
     border: 1px solid #f1f1f1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.extra-img-clsz {
+    margin-right: -10px;
 }
 /* Image Part End */
 /* Delete Icon Part */
@@ -154,7 +158,7 @@ button.image-upload-img-delet i.fas {
     top: 8px;
     margin-left: -48px;
     color: #6f6967;
-    border: 1px solid #6f6967;
+    border: 1px solid #e7e7e7;
     padding: 4px;
     border-radius: 6px;
     font-size: 14px;
@@ -173,10 +177,45 @@ button.image-upload-img-delet i.fas:hover {
 }
 /* Delete Icon Part */
 
+/* Edit Icon Part */
+button.up-img-edtz-btn {
+    right: 51px;
+    position: absolute;
+    z-index: 99999;
+    top: 8px;
+    color: #818181;
+    border: 1px solid #e7e7e7;
+    padding: 1px 3px;
+    border-radius: 6px;
+    font-size: 13px;
+    background-color: #fff;
+    outline: none;
+}
+button.up-img-edtz-btn:hover {
+    border: 1px solid #0be540;
+    background-color: #0be540;
+    color: #fff;
+    transition: .3s;
+}
+/* Edit Icon Part */
+
+/* Checkbox Part */
+.up-img-checkbx-btn {
+    position: absolute;
+    z-index: 999;
+    top: 7px;
+    left: 15px;
+}
+.up-img-checkbx-btn input {
+    width: 16px;
+    height: 16px;
+}
+/* Checkbox Part */
+
 /* Input Css  */
 .form-group.image-upload-img-cls {
     position: relative;
-    margin-top: -4px;
+    margin-top: 2px;
   }
   
   .form-group.image-upload-img-cls span.label {
@@ -190,8 +229,8 @@ button.image-upload-img-delet i.fas:hover {
     text-transform: uppercase;
     font-size: 13px;
     border-radius: 6px;
-    height: 140px;
-    width: 140px;
+    height: 131px;
+    width: 131px;
     text-align: center;
     font-weight: 500;
   }

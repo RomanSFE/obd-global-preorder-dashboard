@@ -46,6 +46,9 @@ export default class DashboardSidebar extends Component {
                         <NavLink to="/dash-gallery" activeStyle={{color:'#f1f1f1',fontWeight: "normal",}}>
                             <Panel showArrow={false} header={<p><img src={require('../../../assets/dashboard-orders-icon.png')} alt=""/> <span>Gallery</span> <span className="obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn text-right"><i className="fas fa-angle-right"></i></span></p>}></Panel>
                         </NavLink>
+                        <NavLink to="/dash-settings" activeStyle={{color:'#f1f1f1',fontWeight: "normal",}}>
+                            <Panel showArrow={false} header={<p><img src={require('../../../assets/dashboard-orders-icon.png')} alt=""/> <span>Settings</span> <span className="obd-dashboard-left-sidebar-main-wv-rihnt-ang-icn text-right"><i className="fas fa-angle-right"></i></span></p>}></Panel>
+                        </NavLink>
                     </Collapse>
                 </div>
             </div>
