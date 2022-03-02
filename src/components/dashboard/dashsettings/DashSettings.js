@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import DashboardSidebar from '../dashboardsidebar/DashboardSidebar';
 import DashboardTopBar from '../dashboardtopbar/DashboardTopBar';
+import DashBannerActiveBox from './DashBannerActiveBox';
 import './dashsettings.css'
 
 export default class DashSettings extends Component {
@@ -146,12 +147,7 @@ export default class DashSettings extends Component {
                                                     </div>
                                                     <div className="col-md-10">
                                                         <div className="obd-preorder-add-product-bx-rt-inpt-fld">
-                                                            <div className="obd-all-store-list-dash-sng-act-ck-stats">
-                                                                <label className="switch">
-                                                                    <input type="checkbox"/>
-                                                                    <span className="slider round"></span>
-                                                                </label>
-                                                            </div>
+                                                            <DashBannerActiveBox/>
                                                         </div>
                                                     </div>
                                                 </div>

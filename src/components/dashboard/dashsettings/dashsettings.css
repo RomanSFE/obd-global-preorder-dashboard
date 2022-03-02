@@ -211,4 +211,31 @@ input:checked + .slider:before {
 /* Save Button */
 /* Input Items End */
 
+/* Banner Active Box Start */
+.dash-banner-active-box ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.dash-banner-active-box ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.dash-banner-active-box ul li img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+.dash-banner-active-box ul p img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    border: 2px solid #ff6347;
+}
+.dash-banner-active-box ul p {
+    font-size: 13px;
+}
+/* Banner Active Box End */
+
 
